@@ -1,0 +1,6 @@
+application/images/
+application/annotations/
+application/annotations.tar.gz
+application/images.tar.gz
+application/oxford_segmentation.keras
+konflux-ci/
