@@ -62,8 +62,8 @@ class CombinedLoss(tf.keras.losses.Loss):
         return self.alpha * self.dice_loss(y_true, y_pred) + (1 - self.alpha) * self.ce_loss(y_true, y_pred)
 def main():
     #TODO change these directories during build
-    input_dir = "/Users/gdozorts/Downloads/AIBOM/application/images"
-    target_dir = "/Users/gdozorts/Downloads/AIBOM/application/annotations/trimaps"
+    input_dir = "../images"
+    target_dir = "../trimaps"
 
     img_size = (160, 160)
     num_classes = 3

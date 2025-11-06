@@ -3,4 +3,7 @@ application/annotations/
 application/annotations.tar.gz
 application/images.tar.gz
 application/oxford_segmentation.keras
+application/load_model.py
+application/hyperparameter.txt
+application/config.json
 konflux-ci/
